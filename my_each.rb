@@ -3,7 +3,7 @@ def my_each (array)
   new_array = []
   while i < array.length 
     yield array[i]
-    new_array[i] << yield array[i]
+    new_array[i] << array[i]
     i +=1 
     
   end 
